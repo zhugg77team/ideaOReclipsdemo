@@ -21,7 +21,7 @@ public class UserController {
     @RequestMapping("/selectall")
     @ResponseBody
     public Object selectall(){
-    	  System.out.println("idea导致冲突了");
+    	  System.out.println("idea提交");
         return userService.selectall();
     }
 

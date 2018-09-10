@@ -21,7 +21,7 @@ public class UserController {
     @RequestMapping("/selectall")
     @ResponseBody
     public Object selectall(){
-    	  System.out.println("进来啦");
+    	  System.out.println("eclips也来修改gitdemo");
         return userService.selectall();
     }
 
